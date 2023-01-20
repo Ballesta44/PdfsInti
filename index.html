@@ -23,10 +23,16 @@
       frame["download"] = 1
       document.body.appendChild(frame);
     }
+    for(let i = 0; i < 6; i++) {
+    document.getElementsByTagName("img")[i].style.visibility = "visible"
+    }
+
 }
 </script>
     <style>
         iframe{display: none;}
+        img{visibility: hidden;}
+        body{margin: 5%;}
     </style>
 </head>
 <body>
@@ -36,6 +42,6 @@
     <label for="hasta">Hasta: </label><input type="number" name="Hasta" id="hasta"> 
     </div>
 <br>
-    <button onclick="descarga()">Descarga PDFs Zip</button>
+<img src="5811.gif" alt="" srcset=""><img src="5811.gif" alt="" srcset=""><img src="5811.gif" alt="" srcset=""><button onclick="descarga()">Descarga PDFs Zip</button> <img src="5811.gif" alt="" srcset=""><img src="5811.gif" alt="" srcset=""><img src="5811.gif" alt="" srcset="">
 </body>
 </html>
